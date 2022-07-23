@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+p.natural::first-line{
+    color: blue;
+    font-variant: small-caps;
+}
+p.natural::first-letter{
+    color:brown;
+    font-variant: small-caps;
+}
+p::first-line{
+    color: cornflowerblue;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+p.natural::first-letter{
+    color: darkgreen;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+
+
